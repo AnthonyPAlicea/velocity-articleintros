@@ -91,7 +91,7 @@
                 }
 
                 // bring in the article contents
-                $('article').velocity({ translateY: "-200px", opacity: 1 }, { duration: 500, queue: false, delay: 200, 
+                $('article').velocity({ translateY: "-200px", opacity: 1 }, { duration: 575, queue: false, delay: 200, easing: "ease-in-out",
                 complete: function() {                     
                     if (isInitialTouchScroll) 
                     {
