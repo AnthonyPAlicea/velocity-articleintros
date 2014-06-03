@@ -19,6 +19,7 @@ Javascript can be found at <strong>'Scripts/velocityarticleintros.js'</strong>
 
 <em>See comments in both files for more information.</em>
 
+##Usage
 The HTML structure is simply:
 
 ```html
@@ -39,7 +40,6 @@ The HTML structure is simply:
 </body>
 ```
 
-##Usage
 Setup your HTML structure as above, and include the needed CSS.
 
 The 'data-articleintro' attribute on the body is set to decide which intro to show ('push', 'jam', or 'side').
