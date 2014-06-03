@@ -4,7 +4,7 @@ Velocity Article Introductions - v 0.1.0
 <strong><a href="http://www.anthonypalicea.com/velocityarticleintros">See the Demo</a></strong>
 
 
-These simple 7kb article introductions are powered by jQuery and Velocity.JS. They are inspired by <a href="http://tympanus.net/Development/ArticleIntroEffects/">Tympanus Article Intro Effects</a> and explained in this article <a href="http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/">here</a>.
+These simple (3kb minified) article introductions are powered by jQuery and Velocity.JS. They are inspired by <a href="http://tympanus.net/Development/ArticleIntroEffects/">Tympanus Article Intro Effects</a> and explained in this article <a href="http://tympanus.net/codrops/2014/05/22/inspiration-for-article-intro-effects/">here</a>.
 
 Rather than using CSS3 transitions, we use <a href="http://velocityjs.org">Velocity.JS</a> for animations.
 
