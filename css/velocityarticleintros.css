@@ -1,0 +1,75 @@
+/*
+* The contents of this CSS file contains required CSS
+* for intros to function. For more detail on expected
+* HTML structure see documentation on Github.
+*
+* Anthony P. Alicea
+* http://www.anthonypalicea.com/velocityarticleintros
+* http://www.github.com/anthonypalicea/velocity-articleintros
+*/
+
+html, body 
+{
+    height: 100%;
+}
+            
+body
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* Header is expected to be a 100% width static element with overflow hidden. */
+body > header
+{
+    position: static;
+    width: 100%;
+    margin-top: 10%;
+    overflow: hidden;
+}
+
+/* The introductory image container is expected to be fixed positioned and cover the viewport */
+div.header-img
+{
+    position: fixed;
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* The introductory image itself covers the viewport */
+div.header-img img
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Content inside the header can be to your liking, but should be absolutely positioned. Here we are assuming all header content (other than the main image) is wrapped in a single <div> */
+body > header > div:not(.header-img)
+{
+    position: relative;
+    width: 90%;
+    max-width: 1024px;
+    margin: 0 auto;
+    z-index: 99999;
+}
+
+/* Content is expected to be wrapped in an <article> and is initially hidden. */
+article
+{
+    position: relative;
+    margin-top: 200px;              
+    opacity: 0;
+}

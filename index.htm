@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"> 
+		<title>Article Intro Effects with Velocity.JS</title>
+        <link href='http://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+        <link href='css/velocityarticleintros.css' rel='stylesheet' type='text/css'>
+        <link href='css/site.css' rel='stylesheet' type='text/css'>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="Scripts/jquery.velocity.min.js"></script>
+    </head>
+    
+    <!-- The data-articleintro attribute sets which article intro to use -->
+    <body data-articleintro="push">
+
+    <!-- The intro image and title is expected to live in a <header> with the header image wrapped in a <div> of class "header-img" -->
+    <header>
+        <div class="header-img">
+            <img src="img/fields-ocean.jpg">
+        </div>
+        
+        <!-- All content other than the header image is expected to be wrapped in a <div> -->
+        <div>
+            
+            <!-- This selector is only here for demo purposes -->
+            <div id="chooseEffect">
+                <small>choose effect</small><br /><a href="#" id="push" style="font-weight: bold;">Push</a> | <a href="#" id="jam">Jam</a> | <a href="#" id="side">Side</a>
+            </div>
+            <!-- End demo selector -->
+            
+            <h1>Article Intro Effects</h1>
+            <h2>Using <a href="http://www.velocityjs.org">velocity.js</a> | <a href="https://github.com/anthonypalicea/velocity-articleintros">Github</a></h2>
+        </div>
+    </header>
+    
+    <!-- All article content is expected to be wrapped in an <article> tag followed by a <div> -->
+    <article>
+        
+        <!-- Using the data-side-width attribute to store the original percentage width of the article, likely set in the CSS. This is only used by the 'side' effect, to restore the article back to its original length during the outro since jQuery returns a pixel value, and not a percentage. -->
+        <div data-side-width="90%">
+            
+            <!-- Within the <article><div>...</div></article> lives the article contents -->
+            <!-- Start article contents -->
+            <header>
+            <h3>inspired by <a href="http://tympanus.net/Development/ArticleIntroEffects/">Tympanus article intro effects.</a></h3>
+            </header>
+
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, qui, tenetur hic provident natus ipsa veritatis excepturi aliquam. Blanditiis, voluptatibus, debitis commodi consequatur ipsam ducimus nihil distinctio neque veritatis quasi?</p>
+            <p>Id, reprehenderit, neque facere vitae praesentium ducimus necessitatibus ratione quos aliquam saepe laboriosam ad sunt explicabo doloribus ipsa alias aliquid iste eveniet hic deserunt porro autem mollitia vel. Distinctio, fugiat.</p>
+            <p>Eligendi, provident blanditiis magnam in aliquid error qui totam saepe cumque quod maiores quidem. Iure, ad neque hic aut animi libero recusandae harum ipsam fuga nobis illum consectetur suscipit quas!</p>
+            <p>Quaerat, repellendus, incidunt, amet, asperiores culpa expedita nam suscipit autem laborum adipisci ducimus aliquam temporibus porro quas repudiandae sunt explicabo quae recusandae pariatur aliquid at blanditiis ipsam distinctio reprehenderit accusantium.</p>
+            <p>Adipisci impedit dolor vel perferendis corporis minus unde sed aut nesciunt fuga! Dolores, beatae, doloremque, ipsa incidunt dicta aut vero labore commodi omnis quasi quas amet facere nisi nemo quae.</p>
+            <p>Ex, ea, in consequuntur iure vitae quis molestias voluptas obcaecati ut at quae possimus eum mollitia amet nemo aut minus sit deserunt dolorum ratione corrupti ad ullam aspernatur ducimus dolorem.</p>
+            <p>Officiis, minima, temporibus ad facere non praesentium atque nam facilis sapiente ipsam accusamus molestias dignissimos neque ab voluptatem quia voluptate perspiciatis itaque beatae nisi eius. Nostrum odit est odio. Assumenda.</p>
+            <p>Distinctio, voluptatem, optio iusto quos dignissimos inventore similique voluptatum aliquid iure magni est molestias sint excepturi dolorum hic? Quam, quod dolorum animi earum nam nemo sit! Molestiae, neque assumenda dicta?</p>
+            <p>Quae, eaque, porro, officiis doloremque deserunt consectetur quos expedita iure at neque praesentium laudantium minima accusantium alias vel cupiditate numquam enim incidunt a corrupti temporibus minus ex rerum? Quibusdam, et.</p>
+            <p>Eligendi, laboriosam commodi hic expedita quibusdam vitae optio porro quae alias ea deleniti neque atque dolores itaque perspiciatis fuga odio repellat tempora reiciendis temporibus quam iusto autem. Accusamus, qui, voluptas.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, repellendus, explicabo, iste mollitia ipsa laboriosam ea consectetur impedit vitae harum eveniet voluptas nam deleniti beatae facilis! Repudiandae maiores itaque quasi.</p>
+            <p>Assumenda, asperiores, quidem, quos harum deleniti cumque culpa quia ut eos eaque enim excepturi voluptatibus illum. Unde, id maxime iure quos voluptate debitis at! Sed, odit nostrum repellendus maiores eius.</p>
+            <p>A, est, ipsa, repudiandae quia enim tenetur nisi optio eaque saepe vel nam temporibus molestiae perferendis obcaecati labore natus ratione aliquid reprehenderit vero repellendus quibusdam inventore provident aspernatur necessitatibus laboriosam!</p>
+            <p>Tempore, vel, veritatis numquam reiciendis nam accusamus omnis qui expedita cumque perspiciatis ab similique fugit aliquam eius possimus dicta ut non dolorem placeat corporis molestiae veniam mollitia sed odit impedit.</p>
+            <p>Hic, soluta quidem inventore laudantium aliquid qui sapiente dolor porro voluptatum minima eveniet animi dolorum cum totam laborum quod harum culpa numquam doloremque reiciendis accusantium voluptatem sunt deserunt aliquam minus.</p>
+            <p>Corrupti, voluptatem maxime dicta animi quas. Quidem, beatae, animi, labore consequuntur itaque eos a suscipit minus libero non explicabo nemo rerum nisi praesentium corporis distinctio reprehenderit rem alias ex culpa.</p>
+            <p>Ipsam, ea, dolores labore quia iste a natus totam assumenda dolorum alias eius illo illum tenetur voluptatem perferendis debitis omnis. Minus, reprehenderit dolorum ex ea in modi eveniet temporibus placeat.</p>
+            <p>Corrupti, ut repudiandae eaque necessitatibus vitae quae ab natus error. Reprehenderit, incidunt distinctio placeat ipsum cupiditate quibusdam tempora reiciendis. Quidem, consequuntur, rerum vel omnis cum fugit mollitia numquam maxime laudantium.</p>
+            <p>Eligendi, reprehenderit, corporis, expedita, molestias eos vitae sint odio ipsum quaerat incidunt officiis cupiditate tempore at modi reiciendis aspernatur possimus officia a dolore illo facilis inventore ut eaque tempora debitis!</p>
+            <p>Totam, veritatis, vitae itaque nostrum explicabo cumque voluptate quidem amet. Amet, voluptate, vitae reprehenderit dolor doloremque quaerat delectus ipsa hic deleniti cum tempore quisquam natus tempora culpa incidunt odio quis.</p>
+            <!-- End article contents -->
+        </div>
+    </article>
+    <script src="Scripts/velocityarticleintros.js?v=0.1.0"></script>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+/*
+* The contents of this CSS file is for purely
+* visual purposes and is NOT necessary. 
+* See 'velocityarticleintros.css' for required CSS.
+*
+* Anthony P. Alicea
+* http://www.anthonypalicea.com/velocityarticleintros
+* http://www.github.com/anthonypalicea/velocity-articleintros
+*/
+body
+{
+    font-family: Raleway, Georgia, serif;
+    background-color: #f7f7f7;
+    color: #111;
+}
+
+body > header h1
+{
+    color: #000;
+    font-size: 4.0em;
+}
+
+body > header h2
+{
+    color: #111;
+    font-size: 1.5em;
+    border-top: solid 1px #ddd;
+}
+
+body > header a
+{
+    text-decoration: none;
+}
+
+article > div, article > header
+{
+    margin: 0 auto;
+    width: 90%;
+    max-width: 1024px;
+}
+
+article > div > header h1
+{
+    text-align: center;
+    font-size: 4.0em;
+}
+
+article > div
+{
+    font-size: 18px;
+}
+
+article > div:not(.title) p:nth-of-type(1)
+{
+    font-size: 1.35em;
+}
+
+#chooseEffect
+{
+    font-size: 1.1em;
+}
+
+@media (max-width: 480px)
+{
+    body > header h1
+    {
+        font-size: 3.0em;
+    }
+    
+    article > div:not(.title) p:nth-of-type(1)
+    {
+        font-size: 1.15em;
+    }
+}
