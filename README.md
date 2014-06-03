@@ -45,3 +45,5 @@ Setup your HTML structure as above, and include the needed CSS.
 The 'data-articleintro' attribute on the body is set to decide which intro to show ('push', 'jam', or 'side').
 
 The 'data-side-width' attribute is only used by the 'side' effect and is to be the width of the article content (note this would need to be redundantly set in CSS).
+
+<em>See the index.htm file code comments for more information.</em>
