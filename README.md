@@ -18,9 +18,9 @@ Javascript can be found at 'Scripts/velocityarticleintros.js'
 The HTML structure is simply:
 
 ```html
-<body data-articleintro='push'>
+<body data-articleintro=''>
     <header>
-        <div class="header-img">
+        <div class='header-img'>
             <img />
         </div>
         <div>
@@ -28,7 +28,7 @@ The HTML structure is simply:
         </div>
     </header>
     <article>
-        <div data-side-width="90%">
+        <div data-side-width=''>
             ...article content...
         </div>
     </article>
