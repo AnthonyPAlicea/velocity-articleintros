@@ -61,7 +61,6 @@ body > header > div:not(.header-img)
 {
     position: relative;
     width: 90%;
-    max-width: 1024px;
     margin: 0 auto;
     z-index: 99999;
 }
