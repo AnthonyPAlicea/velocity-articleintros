@@ -18,7 +18,7 @@ Javascript can be found at 'Scripts/velocityarticleintros.js'
 The HTML structure is simply:
 
 ```html
-<body data-articleintro=''>
+<body data-articleintro='push'>
     <header>
         <div class="header-img">
             <img />
