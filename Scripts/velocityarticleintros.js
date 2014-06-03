@@ -35,33 +35,7 @@
                 $(document).off("touchmove", "body");
 
     }
-
-    // Demo purposes only
-    $("#push").click(function(e) {
-        e.preventDefault();
-
-        $("#chooseEffect a").css("font-weight", "normal");
-        $(this).css("font-weight", "bold");
-        $("body").attr('data-articleintro', 'push');
-    });
-
-    $("#jam").click(function(e) {
-        e.preventDefault();
-
-        $("#chooseEffect a").css("font-weight", "normal");
-        $(this).css("font-weight", "bold");
-        $("body").attr('data-articleintro', 'jam');
-    });
-
-    $("#side").click(function(e) {
-        e.preventDefault();
-
-        $("#chooseEffect a").css("font-weight", "normal");
-        $(this).css("font-weight", "bold");
-        $("body").attr('data-articleintro', 'side');
-    });
-    // End demo purposes only
-
+    
     // Initially disable touch
     disableTouchScroll();
 
@@ -122,7 +96,7 @@
                     if (isInitialTouchScroll) 
                     {
                         // scroll just a bit to not trigger the outro animation
-                        $(document).scrollTop(2); 
+                        $(document).scrollTop(2);
                     } 
 
                     // reenable touch scrolling once the article contents is visible
