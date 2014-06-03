@@ -10,7 +10,7 @@ Rather than using CSS3 transitions, we use <a href="http://velocityjs.org">Veloc
 
 On desktop these introductions happen while you scroll. On mobile/touch devices swipe and then continue scrolling. They have both intro and outro animations.
 
-##Required Structure
+##Javascript and CSS
 The introductions are reusable using the same simple markup and CSS.
 
 Required CSS can be found at <strong>'css/velocityarticleintros.css'</strong>
@@ -19,7 +19,7 @@ Javascript can be found at <strong>'Scripts/velocityarticleintros.js'</strong>
 
 <em>See comments in both files for more information.</em>
 
-##Usage
+##HTML Structure
 The HTML structure is simply:
 
 ```html
